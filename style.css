@@ -29,6 +29,8 @@ div {
     background-color: white;
     padding: 10px;
     font-size: 1.4em;
+    display: list-item;
+    max-height: auto;
 }
 #label-div{
     padding: 2%;
@@ -64,5 +66,8 @@ div {
     border-radius: 20px;
     padding: 10px;
     font-size: 1.4em;
+}
+#results{
+    max-width: auto;
 }
 
