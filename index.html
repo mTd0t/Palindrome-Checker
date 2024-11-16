@@ -9,24 +9,28 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="ellapot">
-        <div>
-            <h1 id="header">Is it a Palindrome?</h1>
+<div class="ellapot">
+    <div>
+        <h1 id="header">Is it a Palindrome?</h1>
+    </div>
+    <div class="form-div">
+        <div id="forms"></div>
+        <div id="label-div">
+            <label for="text-input">Enter in text to check for a palindrome</label>
         </div>
-        <div class="form-div">
-            <form action="app.js" class="forms">
-                <label for="text-input">Enter your word to be checked<br></br></label>
-                <input id="text-input" name="text-input" type="text" value=""><br>
-                <button id="check-btn"></button>
-                <div id="results"></div>
-        </div>
-        <div id="definition-div">
-            <p id="definition">
-                A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring
-                punctuation, case, and spacing
-            </p>
+        <div id="input-div">
+            <input id="text-input" name="text-input" type="text" value=""><br>
+            <button id="check-btn"></button>
+            <div id="results"></div>
         </div>
     </div>
+    <div id="definition-div">
+        <p id="definition">
+            💡A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring
+            punctuation, case, and spacing
+        </p>
+    </div>
+</div>
 <script src="app.js"></script>
 </body>
 </html>
