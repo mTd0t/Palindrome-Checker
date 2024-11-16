@@ -9,8 +9,6 @@ function checkIfEmpty() {
         alert('Please enter a valid input');
     }
 
-    // let userInput = userInput.value.trim().toLowerCase();
-    // let reversedUserInput = userInput.split('').reverse().join('');
 
     const inputStr = userInput.value.trim().toLowerCase();
     const reversedStr = inputStr.split('').reverse().join('');
