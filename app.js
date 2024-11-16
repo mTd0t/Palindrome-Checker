@@ -9,9 +9,8 @@ function checkIfEmpty() {
         alert('Please enter a valid input');
     }
 
-
-    const inputStr = userInput.value.trim().toLowerCase();
-    const reversedStr = inputStr.split('').reverse().join('');
+    let inputStr = userInput.value.trim().toLowerCase();
+    let reversedStr = inputStr.split('').reverse().join('');
 
     if(inputStr === reversedStr) {
         resultDiv.replaceChildren(inputStr + " is a palindrome");
