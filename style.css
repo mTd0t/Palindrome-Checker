@@ -1,9 +1,8 @@
 * {
-    outline: black solid 1px;
 }
 
 body {
-    background-color: darkblue;
+    background-color: #0a0a23;
 }
 
 div {
@@ -13,27 +12,31 @@ div {
 #header {
     margin-bottom: 50px;
     color: white;
+    font-size: 3em;
 }
 
 .ellapot {
     position: absolute;
-    right: 45%;
-    bottom: 45%;
-    width: 1000px;
+    right: 35%;
+    left: 35%;
+    top: 10%;
     padding: 10px;
-    max-width: 250px;
+    max-width: 30em;
 }
 
 .form-div {
     border-radius: 10px;
     background-color: white;
     padding: 10px;
+    font-size: 1.2em;
 
 }
 
 #text-input {
     border-radius: 10px;
     background-color: gray;
+    width: 60%;
+    border: none;
 }
 
 #check-btn {
@@ -45,10 +48,10 @@ div {
     background-color: black;
 }
 #definition-div{
-    background-color: darkgray;
+    background-color: lightgreen;
     margin-top: 40px;
     border-radius: 10px;
     padding: 10px;
-
+    font-size: 1.4em;
 }
 
