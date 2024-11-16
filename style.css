@@ -1,10 +1,54 @@
 * {
-    border: 1px solid black;
-    max-width: 10px;
-    
-}   
-.form-div{
-    margin-left: 0;
-    margin-left: 0;
-    
+    outline: black solid 1px;
 }
+
+body {
+    background-color: darkblue;
+}
+
+div {
+    text-align: center;
+}
+
+#header {
+    margin-bottom: 50px;
+    color: white;
+}
+
+.ellapot {
+    position: absolute;
+    right: 45%;
+    bottom: 45%;
+    width: 1000px;
+    padding: 10px;
+    max-width: 250px;
+}
+
+.form-div {
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+
+}
+
+#text-input {
+    border-radius: 10px;
+    background-color: gray;
+}
+
+#check-btn {
+    width: 20px;
+    height: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: black;
+}
+#definition-div{
+    background-color: darkgray;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
