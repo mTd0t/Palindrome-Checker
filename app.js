@@ -1,23 +1,21 @@
 const userInput = document.getElementById('text-input');
 const checkPalindromeBtn = document.getElementById('check-btn');
-const resultDiv = document.getElementById('results');
+const resultDiv = document.getElementById('result');
 
 checkPalindromeBtn.addEventListener("click", checkIfEmpty);
 
 function checkIfEmpty() {
     if(userInput.value === "") {
-        alert('Please enter a valid input');
+        alert("Please input a value");
     }
 
-    let inputStr = userInput.value.trim().toLowerCase();
-    let reversedStr = inputStr.split('').reverse().join('');
+    const configuredUserInput = userInput.value.trim().toLowerCase().replace(/[^a-zA-Z0-9]/gi, "");
+    const reversedStr = configuredUserInput.split('').reverse().join('');
 
-    if(inputStr === reversedStr) {
-        resultDiv.replaceChildren(inputStr + " is a palindrome");
+    if(configuredUserInput === reversedStr) {
+        resultDiv.replaceChildren(userInput.value + " is a palindrome");
     }else{
-        resultDiv.replaceChildren(inputStr + " is not a palindrome");
+        resultDiv.replaceChildren(userInput.value + " is not a palindrome");
     }
 }
-
-
 

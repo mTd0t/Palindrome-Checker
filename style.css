@@ -30,7 +30,7 @@ div {
     padding: 10px;
     font-size: 1.4em;
     display: list-item;
-    max-height: auto;
+    box-shadow: 0 15px 15px -1px darkblue;
 }
 #label-div{
     padding: 2%;
@@ -45,6 +45,7 @@ div {
 #text-input {
     padding-right: 25%;
     margin-right: 10%;
+    width: 100%;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -66,8 +67,5 @@ div {
     border-radius: 20px;
     padding: 10px;
     font-size: 1.4em;
-}
-#results{
-    max-width: auto;
 }
 
